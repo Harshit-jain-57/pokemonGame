@@ -54,10 +54,10 @@ export default function BattleArea({ player, opponent }) {
                     <div>
                         <h3>YOUR MOVE</h3>
                         {playerMoves.map((move, index) => (
-                            <button 
+                            <button
                                 key={index} 
                                 onClick={() => attack(index)}
-                                style={{ margin: "5px", padding: "10px 15px", cursor: "pointer" }}
+                                style={{ margin: "20px", padding: "10px 20px", cursor: "pointer" ,fontFamily:"Myfonts",borderRadius:"15px",background:""}}
                             >
                                {player.moves[index].toUpperCase()} ( DAMAGE : {move})
                             </button>

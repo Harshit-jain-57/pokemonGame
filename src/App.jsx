@@ -61,7 +61,7 @@ function App() {
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}>
       {belt.map((pokemon, index) => (
         <div key={index} style={{ margin: "10px", textAlign: "center" }}>
-          <h3 className="poke-name">{pokemon.id.toUpperCase()}</h3>
+          <h3 style={{color:"white"}}>{pokemon.id.toUpperCase()}</h3>
           <img src={pokemon.image} 
           alt={pokemon.id}
           onMouseEnter={(e)=>e.target.src=pokemon.gif}
@@ -73,9 +73,10 @@ function App() {
               <button key={type} style={{ 
                 background: pokemonType(type), 
                 color: "black", 
-                margin: "10px", 
+                margin: "10px",
+                border:"none", 
                 padding: "10px 20px", 
-                borderRadius: "5px",
+                borderRadius: "15px",
                 fontSize:"16px"
               }}>
                 {type.toUpperCase()}

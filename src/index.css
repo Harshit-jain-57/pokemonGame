@@ -3,6 +3,14 @@
   src: url('/Race\ Sport.ttf');
 }
 
-*{
+body{
   font-family: "Myfonts",sans-serif;
+  background: linear-gradient(to right, #000000, #171717);
+  color: aliceblue;
+}
+button{
+ margin: 20px;
+padding: 10px 20px;
+font-family:"Myfonts",sans-serif;
+border-radius: 15px;
 }
