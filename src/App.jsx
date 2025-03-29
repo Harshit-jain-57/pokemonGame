@@ -11,18 +11,11 @@ function App() {
       fire: "#ff5a00",
       water: "blue",
       electric: "#ffff33",
-      psychic: "purple",
-      ice: "cyan",
       fighting: "brown",
       ground: "sienna",
       flying: "skyblue",
-      rock: "gray",
-      bug: "limegreen",
-      ghost: "darkviolet",
       steel: "slategray",
       dragon: "darkblue",
-      dark: "black",
-      fairy: "pink",
       normal: "lightgray",
       poison: "violet",
     };
@@ -76,9 +69,6 @@ function App() {
               </button>
             ))}
           </div>
-
-          <p>Moves: {pokemon.moves.join(", ")}</p>
-          <button>{index + 1}</button>
         </div>
       ))}
     </div>
