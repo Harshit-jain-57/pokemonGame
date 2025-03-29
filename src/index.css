@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Myfonts";
+  src: url('/Race\ Sport.ttf');
+}
+
+*{
+  font-family: "Myfonts",sans-serif;
+}
