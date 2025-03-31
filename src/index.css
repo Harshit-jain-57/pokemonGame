@@ -5,7 +5,7 @@
 
 body{
   font-family: "Myfonts",sans-serif;
-  background: linear-gradient(to right, #000000, #171717);
+  /* background: linear-gradient(to right, #000000, #171717); */
   color: aliceblue;
 }
 button{
